@@ -28,7 +28,7 @@ public class Cat {
 		int y=catY;
 		// Draw the head
 		g2.setColor(Color.orange);
-		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
+		g2.fillOval(x+2, y+2, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);
 		x = catX + EYE_X; 
